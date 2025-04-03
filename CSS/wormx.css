@@ -1,0 +1,85 @@
+.description-text { overflow: hidden !important; border: 1px solid #282d26; }
+.wormatrix-connect-title {
+  font-size: 1.2em !important;
+  color: #657f1b;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute; top: -1px; z-index: 1; width: 96%; left: 0px; overflow: hidden; border-radius: 4px;
+}
+.wormatrix-connect-title img { float: left }
+
+#wm-tabs { height: 240px;  margin: 6px auto; border: 2px solid #506318; border-radius: 10px; -ms-overflow-style: none; scrollbar-width: none; overflow-y: scroll; }
+#wm-tabs ul {
+  display: inline-block;
+  border-bottom: 2px solid #506318;
+  margin: 6px !important;
+  padding-left: 2px !important;
+  padding-bottom: 6px !important;
+  list-style-type: none;
+  clear: both; padding: 0;
+}
+#wm-tabs hr { clear:both; border: none; border-bottom: 2px solid #506318; margin: 4px; }
+#wm-tabs ul li { float: left; padding: 0px; }
+#wm-tabs ul li a { float: left; margin: 3px 5px; }
+#wm-tabs ul li a.active {  margin: 1px 3px; border: 2px solid #657f1b; border-radius: 5px; overflow: hidden; }
+#wm-tabs a.dropdown-item.wm-room {
+  text-decoration: none;
+  text-transform: uppercase;
+  /*color: #d0821e;*/
+  color: #fff;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 0px 5px;
+  display: block;
+}
+#wm-tabs .wm-room-item { height: 28px; position: relative }
+#wm-tabs a.dropdown-item.wm-room:hover {
+  background-color: #506318;
+}
+#wm-tabs a.wm-streamer, #wm-tabs span.wm-streamer { position: absolute; right: 4px; top: 0; }
+#wm-tabs a.wm-streamer img, #wm-tabs span.wm-streamer img { width: 25px; vertical-align: middle; }
+#wm-room-item a {
+  display: block;
+  color: #fff;
+  line-height: 30px;
+  padding: 0px 5px;
+}
+#wm-room-item a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+
+.wm-aggregation { padding: 0px 6px; }
+.wm-aggregation .wm-left, .wm-aggregation .wm-center, .wm-aggregation .wm-right { width: 65px; display: inline-block; font-weight: bold; }
+.wm-aggregation .wm-left { text-align: left; }
+.wm-aggregation .wm-center { text-align: center; }
+.wm-aggregation .wm-right { float: right; text-align: right; margin-right: 2px; }
+.wm-aggregation strong { padding-left: 4px }
+.wm-aggregation .headshots { color: #ed563f; }
+.wm-aggregation .kills { color: #f4d100; }
+.wm-aggregation .died { /*color: #f79425;*/ color: #c40000; }
+
+.wm-flag .flag{
+  display:inline-block;
+  height:32px;
+  width:32px;
+  vertical-align:text-top;
+  line-height:32px;
+  background:url(https://wormy.wormatrix.io/images/flags.png) no-repeat;
+}
+.wm-flag .br{background-position:0px 0px;}
+.wm-flag .us{background-position:0px -35px;}
+.wm-flag .ca{background-position:0px -71px;}
+.wm-flag .mx{background-position:0px -106px;}
+.wm-flag .de{background-position:0px -141px;}
+.wm-flag .fr{background-position:0px -177px;}
+.wm-flag .sg{background-position:0px -212px;}
+.wm-flag .jp{background-position:0px -247px;}
+.wm-flag .au{background-position:0px -283px;}
+.wm-flag .gb{background-position:0px -318px;}
+.wm-flag .ae{background-position:0px -318px;}
+.wm-flag .x2{background-position:0px -330px;}
+#player-names span, #player-names a { -moz-user-select: -moz-none; -khtml-user-select: none; -webkit-user-select: none; }
