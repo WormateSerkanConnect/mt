@@ -1,5 +1,5 @@
 'use strict';
-const zUrl = 'https://wormateserkanconnect.github.io/mt';
+const zUrl = 'https://wormy.wormatrix.io';
 var Z = {
     positions: {
         m: 190,
