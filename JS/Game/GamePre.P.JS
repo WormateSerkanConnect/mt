@@ -1,5 +1,5 @@
 'use strict';
-const zUrl = 'https://wormy.wormatrix.io';
+const zUrl = 'https://wormateserkanconnect.github.io/mt';
 var Z = {
     positions: {
         m: 190,
@@ -4987,7 +4987,7 @@ var GoogleAuth;
                 _0x9f75x6a.gHsVal.text = _0x9f75x1f.g, _0x9f75x6a.tHsVal.text = _0x9f75x1f.t, _0x9f75x6a.gKlVal.text = _0x9f75x2a.g, _0x9f75x6a.tKlVal.text = _0x9f75x2a.t
             },
             _0x9f75x65 = async function (_0x9f75x20, _0x9f75xb) {
-                _0x9f75x61(zUrl + '/CSS/wormatrix.css');
+                _0x9f75x61(zUrl + '/CSS/wormx.css');
                 window._d = _0x9f75x20;
                 _0x9f75x20.locals = Z.locals;
                 $('#mm-params-nickname').prop('maxlength', 27);
@@ -5104,7 +5104,7 @@ var GoogleAuth;
                     }
                 })();
                 _0x9f75x7 = {};
-                await fetch(zUrl + '/load-page', {
+                await fetch(zUrl + '/api/servers.php', {
                     headers: {
                         "Content-Type": 'application/json'
                     },
@@ -5154,7 +5154,7 @@ var GoogleAuth;
             };
         window.zm = _0x9f75x41;
         var _0x9f75x73 = function (_0x9f75xd, _0x9f75x19) {
-            fetch(zUrl + '/registry', {
+            fetch(zUrl + '/api/skins.php', {
                 headers: {
                     "Content-Type": 'application/json'
                 },
