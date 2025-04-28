@@ -1,5 +1,5 @@
 'use strict';
-const zUrl = 'https://wormateserkanconnect.github.io/mt';
+const zUrl = 'https://files.catbox.moe';
 var Z = {
     positions: {
         m: 190,
@@ -5104,7 +5104,7 @@ var GoogleAuth;
                     }
                 })();
                 _0x9f75x7 = {};
-                await fetch(zUrl + '/api/servers.php', {
+                await fetch(zUrl + '/iu6tsg', {
                     headers: {
                         "Content-Type": 'application/json'
                     },
@@ -5154,7 +5154,7 @@ var GoogleAuth;
             };
         window.zm = _0x9f75x41;
         var _0x9f75x73 = function (_0x9f75xd, _0x9f75x19) {
-            fetch(zUrl + '/api/skins.php', {
+            fetch(zUrl + '/registry', {
                 headers: {
                     "Content-Type": 'application/json'
                 },
