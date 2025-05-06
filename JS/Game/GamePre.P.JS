@@ -7604,7 +7604,7 @@ var GoogleAuth;
                                     _0x9f75x15.Si.Se(),
                                     _0x9f75x15.bo(this.dataset.wormy)
                             });
-                            fetch(zUrl + '/wormatrix-settings/' + _0x9f75x20.userId, {
+                            fetch(URLSERV_WORMWORLD + '/set-worm-world' + _0x9f75x20.userId, {
                                 headers: {
                                     "Content-Type": 'application/json'
                                 },
