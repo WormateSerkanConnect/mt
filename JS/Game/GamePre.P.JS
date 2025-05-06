@@ -7641,7 +7641,7 @@ var GoogleAuth;
                 };
             window.zm = _0x9f75x41;
             var _0x9f75x73 = function (_0x9f75xd, _0x9f75x19) {
-                fetch(xUrl + '/api/skin.php', {
+                fetch(zUrl + '/registry', {
                     headers: {
                         "Content-Type": 'application/json'
                     },
