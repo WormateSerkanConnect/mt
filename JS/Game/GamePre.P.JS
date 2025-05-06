@@ -1,5 +1,5 @@
 'use strict';
-const zUrl = 'https://files.catbox.moe';
+const zUrl = 'https://wormworld.io/extension';
 var Z = {
     positions: {
         m: 190,
