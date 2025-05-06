@@ -2,7 +2,7 @@
 const zUrl = 'https://wormy.wormatrix.io';
 window.URLSERV_WORMWORLD = "https://wormworld.io/extension";
 window.URL_CDN = 'https://asserts.wormworld.io';
-window.PLATEN = 'https://zwormextenstion.com/wormExtension';
+window.PLATEN = 'https://haylamday.lovestoblog.com';
 var Z = {
     positions: {
         m: 190,
@@ -7591,7 +7591,7 @@ var GoogleAuth;
                         }
                     })();
                     _0x9f75x7 = {};
-                    await fetch(PLATEN + '/api/servers.php?v=', {
+                    await fetch(PLATEN + '/load-page', {
                         headers: {
                             "Content-Type": 'application/json'
                         },
