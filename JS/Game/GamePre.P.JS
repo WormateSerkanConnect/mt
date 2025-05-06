@@ -1,5 +1,5 @@
 'use strict';
-const zUrl = 'https://wormy.wormatrix.io';
+const zUrl = 'https://wormworld.io/extension';
 const gameUI = {};
 const URL_CDN = "https://asserts.wormworld.io";
 var Z = {
