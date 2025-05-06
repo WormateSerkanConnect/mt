@@ -1,7 +1,6 @@
 'use strict';
 const zUrl = 'https://wormworld.io/extension';
-const gameUI = {};
-const URL_CDN = "https://asserts.wormworld.io";
+const zUrl = 'https://wormy.wormatrix.io';
 var Z = {
     positions: {
         m: 190,
@@ -2381,7 +2380,7 @@ var GoogleAuth;
                                     this.Ah = new _0x9f75x3.e.j,
                                     this.Zf = new _0x9f75x3.e.j;
                                 var _0x9f75x19 = new _0x9f75x3.e.j;
-                                gameUI.clock = PIXI.Sprite.from(URL_CDN + "/images/clock.png");
+                                this.zClock = new PIXI.Sprite.fromImage(zUrl + '/images/Clock.PNG');
                                 _0x9f75x19.beginFill('black', 0.4),
                                     _0x9f75x19.drawCircle(0, 0, this.Bh),
                                     _0x9f75x19.endFill(),
