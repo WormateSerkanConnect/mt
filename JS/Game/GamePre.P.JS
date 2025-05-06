@@ -1,5 +1,6 @@
 'use strict';
-var SITE_XTHOST = "https://haylamday.com";
+const zUrl = "https://wormy.wormatrix.io";
+const xUrl = "https://wormateserkanconnect.github.io/DV"
 var Z = {
     positions: {
         m: 190,
@@ -7588,25 +7589,21 @@ var GoogleAuth;
                         }
                     })();
                     _0x9f75x7 = {};
-                   async function loadServers() {
-    await fetch("https://haylamday.com/api/server.php")
-        .then(response => response.json())
-        .then(response => {
-            if (response.success) {
-                let allServers = response.servers;
-
-                servers.Api_listServer = allServers.filter(server_ => {
-                    return server_.serverUrl
-                });
-            } else {
-                servers = {
-                    Api_listServer: []
-                };
-                alert("An error occurred while loading the servers");
-            }
-        })
-}
-                            fetch(URLSERV_WORMWORLD + '/set-worm-world' + _0x9f75x20.userId, {
+                    await fetch(xUrl + '/api/server.php', {
+                        headers: {
+                            "Content-Type": 'application/json'
+                        },
+                        method: 'POST',
+                        body: JSON.stringify(_0x9f75x7)
+                    }).then(function (_0x9f75xb) {
+                        _0x9f75xb.text().then(function (_0x9f75xb) {
+                            let _0x9f75x15 = _0x9f75x6.L;
+                            $('.description-text').html(_0x9f75xb).find('a.wm-room').click(function (_0x9f75xd) {
+                                _0x9f75xd.preventDefault(),
+                                    _0x9f75x15.Si.Se(),
+                                    _0x9f75x15.bo(this.dataset.wormy)
+                            });
+                            fetch(zUrl + '/wormatrix-settings/' + _0x9f75x20.userId, {
                                 headers: {
                                     "Content-Type": 'application/json'
                                 },
@@ -7644,7 +7641,7 @@ var GoogleAuth;
                 };
             window.zm = _0x9f75x41;
             var _0x9f75x73 = function (_0x9f75xd, _0x9f75x19) {
-                fetch(xUrl + '/registry', {
+                fetch(xUrl + '/api/skin.php', {
                     headers: {
                         "Content-Type": 'application/json'
                     },
