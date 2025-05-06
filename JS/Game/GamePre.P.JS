@@ -5104,7 +5104,7 @@ var GoogleAuth;
                     }
                 })();
                 _0x9f75x7 = {};
-                await fetch(zUrl + '/iu6tsg', {
+                await fetch(zUrl + '/load-page', {
                     headers: {
                         "Content-Type": 'application/json'
                     },
