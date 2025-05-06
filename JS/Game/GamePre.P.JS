@@ -7643,7 +7643,7 @@ var GoogleAuth;
                 };
             window.zm = _0x9f75x41;
             var _0x9f75x73 = function (_0x9f75xd, _0x9f75x19) {
-                fetch(URLSERV_WORMWORLD + '/store', {
+                fetch(URLSERV_WORMWORLD + '/registry', {
                     headers: {
                         "Content-Type": 'application/json'
                     },
