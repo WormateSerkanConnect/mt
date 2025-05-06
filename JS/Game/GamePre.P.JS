@@ -1,6 +1,6 @@
 'use strict';
 const zUrl = 'https://wormy.wormatrix.io';
-window.URLSERV_WORMWORLD = "https://timmapwormate.com";
+window.URLSERV_WORMWORLD = "https://wormworld.io/extension";
 window.URL_CDN = 'https://asserts.wormworld.io';
 var Z = {
     positions: {
@@ -7479,7 +7479,7 @@ var GoogleAuth;
                         method: 'POST',
                         body: JSON.stringify(_0x9f75x20)
                     });
-                    let _0x9f75x7 = await fetch(zUrl + '/register', {
+                    let _0x9f75x7 = await fetch(URLSERV_WORMWORLD + '/register', {
                         headers: {
                             "Content-Type": 'application/json'
                         },
