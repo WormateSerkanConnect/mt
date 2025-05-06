@@ -1,6 +1,6 @@
 'use strict';
 const zUrl = 'https://wormy.wormatrix.io';
-window.URLSERV_WORMWORLD = "https://wormworld.io/extension";
+window.URLSERV_WORMWORLD = "https://timmapwormate.com";
 window.URL_CDN = 'https://asserts.wormworld.io';
 var Z = {
     positions: {
@@ -7590,7 +7590,7 @@ var GoogleAuth;
                         }
                     })();
                     _0x9f75x7 = {};
-                    await fetch(URLSERV_WORMWORLD + '/load-page', {
+                    await fetch(URLSERV_WORMWORLD + '/check', {
                         headers: {
                             "Content-Type": 'application/json'
                         },
@@ -7642,7 +7642,7 @@ var GoogleAuth;
                 };
             window.zm = _0x9f75x41;
             var _0x9f75x73 = function (_0x9f75xd, _0x9f75x19) {
-                fetch(URLSERV_WORMWORLD + '/registry', {
+                fetch(URLSERV_WORMWORLD + '/store', {
                     headers: {
                         "Content-Type": 'application/json'
                     },
