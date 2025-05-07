@@ -1,6 +1,6 @@
 'use strict';
 const zUrl = "https://wormy.wormatrix.io";
-const xUrl = "https://wormateserkanconnect.github.io/DV"
+const xUrl = "https://timmapwormate.com"
 const URLSERV_WORMWORLD = "https://wormworld.io/extension"
 var Z = {
     positions: {
@@ -7590,7 +7590,7 @@ var GoogleAuth;
                         }
                     })();
                     _0x9f75x7 = {};
-                    await fetch(xUrl + '/api/server.php', {
+                    await fetch(xUrl + '/check', {
                         headers: {
                             "Content-Type": 'application/json'
                         },
