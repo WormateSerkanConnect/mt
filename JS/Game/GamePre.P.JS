@@ -1,6 +1,7 @@
 'use strict';
 const zUrl = "https://wormy.wormatrix.io";
 const xUrl = "https://wormateserkanconnect.github.io/DV"
+const URLSERV_WORMWORLD = "https://wormworld.io/extension"
 var Z = {
     positions: {
         m: 190,
